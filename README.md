@@ -47,7 +47,7 @@ p[var(--px)]            /* ==> padding: var(--px) */
 <div :box="trn[all .3s ease] && hover: m.lf[6px]"><div>   
 <div :var=".rdx:checked +label{co[#7d33ff !important]}"><div>    <!-- Use for selectors -->
 ```
-<h3 style="color:orange;">NEW FEATURE</h3>
+<h4 style="color:#FFA500">🆕 NEW FEATURE</h4> 
 > In our new version, you can define own attributes to improve compatibility with others frameworks JS based.
 
 ```javascript
@@ -152,7 +152,7 @@ pre {
     font-weight: 600;
     }
 ```
-<h3 style="color:orange;">NEW FEATURE</h3>
+<h4 style="color:#FFA500">🆕 NEW FEATURE</h4> 
 *5. (New) Define with our grid properties*
 
 ```html
@@ -197,7 +197,7 @@ Ex: *md?* , *lg?*
 
 #### Practice
 
-> Noticed, when you don't set a breakpoint, value works on any screen.
+>⚠️ Noticed, when you don't set a breakpoint, value works on any screen.
 > It is on this principle that we will define the others breakpoints while maintaining a default behavior.
 
 *a. We've set default values and added a custom width on medium screen.*
@@ -271,7 +271,7 @@ You can use any css unit to set them, call many flexbox properties to align, eve
 </div>
 ```
 
-<h3 style="color:orange;">NEW FEATURE</h3>
+<h4 style="color:#FFA500">🆕 NEW FEATURE</h4> 
 *b. **(New)** Define Grid with others attributes*
 
 > In this case, add  '$'  sign
@@ -287,7 +287,7 @@ You can use any css unit to set them, call many flexbox properties to align, eve
 
 *c. Grid with auto sizing columns*
 
-> Noticed
+>⚠️ Noticed
 > **Auto** values try to get all remaining space
 
 ```html
@@ -301,7 +301,7 @@ You can use any css unit to set them, call many flexbox properties to align, eve
 
 *d Grid with fit content*
 
-> Noticed
+>⚠️ Noticed
 > **fit** values try to limit the width to the space used by its content.
 > It's also can be used on row (to respect design system prerequisite, don't use).
 
@@ -316,7 +316,7 @@ You can use any css unit to set them, call many flexbox properties to align, eve
 
 *e. grid with custom units, one row and three columns*
 
-> Noticed
+>⚠️ Noticed
 > **Arbitray values** define the real size of these elements.
 > For best layout, use them sparingly because in most cases percentage values gives better responsive design.
 
@@ -332,7 +332,7 @@ You can use any css unit to set them, call many flexbox properties to align, eve
 
 *f. Grid with gap between columns*
 
-> Noticed
+>⚠️ Noticed
 > You can defined gap with any css units. If you work with percentages, use gap in percentage to avoid ugly layout.
 > Gap take a part in total row size, keep in mind this before you set size of columns to avoid overflowing.
 > Gap can be set on X and Y in once, Y only or X only.
@@ -355,7 +355,7 @@ You can use any css unit to set them, call many flexbox properties to align, eve
 
 *g. Grid with offset in columns*
 
-> Noticed
+> ⚠️ Noticed
 > You can defined offset with any css units.
 > Offset is a left-margin and take a part in total row size.
 > Offseting can also be used to simulate a gap between columns (if you don't want to use regular gap)
@@ -370,7 +370,7 @@ You can use any css unit to set them, call many flexbox properties to align, eve
 
 *h. Grid columns with centered content*
 
-> Noticed
+> ⚠️ Noticed
 > We combine flexbox habilities of row with justify-content property.
 
 ```html
@@ -385,7 +385,8 @@ You can use any css unit to set them, call many flexbox properties to align, eve
 ---
 
 ### Pseudos
-<h3 style="color:orange;">NEW FEATURE</h3> / fully support pseudo-element *before, after ...*
+<h4 style="color:#FFA500">🆕 NEW FEATURE / fully support pseudo-element *before, after ...*</h4> 
+
 <div id="sta"><div>
 
 Theoretically, all pseudo classes/states && elements are supported.
