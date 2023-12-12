@@ -47,7 +47,7 @@ p[var(--px)]            /* ==> padding: var(--px) */
 <div :box="trn[all .3s ease] && hover: m.lf[6px]"><div>   
 <div :var=".rdx:checked +label{co[#7d33ff !important]}"><div>    <!-- Use for selectors -->
 ```
-### NEW FEATURE
+<h3 style="color:orange;">NEW FEATURE</h3>
 > In our new version, you can define own attributes to improve compatibility with others frameworks JS based.
 
 ```javascript
@@ -152,7 +152,7 @@ pre {
     font-weight: 600;
     }
 ```
-### NEW FEATURE
+<h3 style="color:orange;">NEW FEATURE</h3>
 *5. (New) Define with our grid properties*
 
 ```html
@@ -271,7 +271,7 @@ You can use any css unit to set them, call many flexbox properties to align, eve
 </div>
 ```
 
-### NEW FEATURE
+<h3 style="color:orange;">NEW FEATURE</h3>
 *b. **(New)** Define Grid with others attributes*
 
 > In this case, add  '$'  sign
@@ -385,7 +385,7 @@ You can use any css unit to set them, call many flexbox properties to align, eve
 ---
 
 ### Pseudos
-### NEW FEATURE / fully support pseudo-element *before, after ...*
+<h3 style="color:orange;">NEW FEATURE</h3> / fully support pseudo-element *before, after ...*
 <div id="sta"><div>
 
 Theoretically, all pseudo classes/states && elements are supported.
